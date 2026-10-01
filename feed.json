@@ -1,14 +1,35 @@
 {
   "format": 1,
   "key_id": "d70b3bf207fdfd59",
-  "signature": "f6nxDZXBBcr1TDYz+6vCWHvWRpnJqUIpd87/UfI9bXrYe6EOKFK+F7XIeDKnFzDtKgQKEiIKG7/DeELjolVSAg==",
+  "signature": "V8mvrA29hukXScLhncHi8OlLMcEpLB8lP7jBAisweKFQQgrwwMWQSzMUb1YGA8V3nsQdyMC9acmEq09Z7Z7fAw==",
   "payload": {
     "format": 1,
-    "serial": 2,
-    "published_at": "2026-10-01T08:48:33Z",
+    "serial": 3,
+    "published_at": "2026-10-01T09:06:59Z",
     "announcements": [
       {
+        "id": "eca5a7fd0c009357",
+        "archived": false,
+        "level": "info",
+        "published_at": "2026-10-01T09:06:59Z",
+        "expires_at": null,
+        "texts": {
+          "en": {
+            "title": "test info",
+            "body": "test info\ntest info\ntest info\ntest info\ntest info\ntest info"
+          }
+        },
+        "link_url": null,
+        "target": {
+          "min_version": null,
+          "max_version": null,
+          "channels": [],
+          "install_types": []
+        }
+      },
+      {
         "id": "84104c2aceeda039",
+        "archived": false,
         "level": "important",
         "published_at": "2026-10-01T08:48:33Z",
         "expires_at": null,
