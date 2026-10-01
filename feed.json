@@ -1,12 +1,32 @@
 {
   "format": 1,
   "key_id": "d70b3bf207fdfd59",
-  "signature": "4rN3EjyKRjI2Qy0P7+9VhwbR+vUao5sGHFVT4KgW+rR85rxzKBCZV6fLvTyKEncryMPYNfQ3rC1RvUccoHlUAA==",
+  "signature": "DVIFdzWvseRZzqdonRsaamJKBop0UnKoEciIWLz3VUlQUrSvrGpl+1F8a4DCA8NIh0i0Kp9RbfHiXcCqtW7tAw==",
   "payload": {
     "format": 1,
-    "serial": 4,
-    "published_at": "2026-10-01T09:07:06Z",
+    "serial": 5,
+    "published_at": "2026-10-01T09:19:56Z",
     "announcements": [
+      {
+        "id": "718405c33b2bc990",
+        "archived": false,
+        "level": "info",
+        "published_at": "2026-10-01T09:19:56Z",
+        "expires_at": null,
+        "texts": {
+          "en": {
+            "title": "test2",
+            "body": "{\n  \"format\": 1,\n  \"key_id\": \"d70b3bf207fdfd59\",\n  \"signature\": \"4rN3EjyKRjI2Qy0P7+9VhwbR+vUao5sGHFVT4KgW+rR85rxzKBCZV6fLvTyKEncryMPYNfQ3rC1RvUccoHlUAA==\",\n  \"payload\": {\n    \"format\": 1,\n    \"serial\": 4,\n    \"published_at\": \"2026-10-01T09:07:06Z\",\n    \"announcements\": [\n      {\n        \"id\": \"ad235b33b8db0108\",\n        \"archived\": false,\n        \"level\": \"critical\",\n        \"published_at\": \"2026-10-01T09:07:06Z\",\n        \"expires_at\": null,\n        \"texts\": {\n          \"en\": {\n            \"title\": \"test critical\",\n            \"body\": \"test critical\\ntest critical\\ntest critical\\ntest critical\\ntest critical\\ntest critical\\ntest critical\\ntest critical\"\n          }\n        },\n        \"link_url\": null,\n        \"target\": {\n          \"min_version\": null,\n          \"max_version\": null,\n          \"channels\": [],\n          \"install_types\": []\n        }\n      },\n      {\n        \"id\": \"eca5a7fd0c009357\",\n        \"archived\": false,\n        \"level\": \"info\",\n        \"published_at\": \"2026-10-01T09:06:59Z\",\n        \"expires_at\": null,\n        \"texts\": {\n          \"en\": {\n            \"title\": \"test info\",\n            \"body\": \"test info\\ntest info\\ntest info\\ntest info\\ntest info\\ntest info\"\n          }\n        },\n        \"link_url\": null,\n        \"target\": {\n          \"min_version\": null,\n          \"max_version\": null,\n          \"channels\": [],\n          \"install_types\": []\n        }\n      },\n      {\n        \"id\": \"84104c2aceeda039\",\n        \"archived\": false,\n        \"level\": \"important\",\n        \"published_at\": \"2026-10-01T08:48:33Z\",\n        \"expires_at\": null,\n        \"texts\": {\n          \"en\": {\n            \"title\": \"H2/X2-series / P2S: why some archives only show a name\",\n            \"body\": \"If your archive cards have a name and timing but no thumbnail, filament\\ntotal or cost, this is why — and there's a fix that works today.\\n\\nBambu Studio's Print button sends sliced files to the printer's\\ninternal memory on H2C, H2D and P2S. Bambuddy reads files off the\\nprinter over"
+          }
+        },
+        "link_url": null,
+        "target": {
+          "min_version": null,
+          "max_version": null,
+          "channels": [],
+          "install_types": []
+        }
+      },
       {
         "id": "ad235b33b8db0108",
         "archived": false,
