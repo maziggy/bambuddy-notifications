@@ -1,32 +1,12 @@
 {
   "format": 1,
   "key_id": "d70b3bf207fdfd59",
-  "signature": "TJhERm2FSlL/P2kfWcMUVUQb3IBvnRB8oxMABI/k2lDaySqHPTAJhpZYV/Q9SXmwq7e+Ts1p6VL/OgWCfiBSCQ==",
+  "signature": "y55hENOcrf/qCXdvIL4fdWDqVlJextr4ig7ua6MFLXT/LsGznhHdedwmpH/X5QVhcZA1goP9ioha5d9QAvu6AQ==",
   "payload": {
     "format": 1,
-    "serial": 8,
-    "published_at": "2026-10-01T09:31:40Z",
+    "serial": 9,
+    "published_at": "2026-10-01T09:31:49Z",
     "announcements": [
-      {
-        "id": "ad235b33b8db0108",
-        "archived": false,
-        "level": "critical",
-        "published_at": "2026-10-01T09:07:06Z",
-        "expires_at": null,
-        "texts": {
-          "en": {
-            "title": "test critical",
-            "body": "test critical\ntest critical\ntest critical\ntest critical\ntest critical\ntest critical\ntest critical\ntest critical"
-          }
-        },
-        "link_url": null,
-        "target": {
-          "min_version": null,
-          "max_version": null,
-          "channels": [],
-          "install_types": []
-        }
-      },
       {
         "id": "eca5a7fd0c009357",
         "archived": false,
