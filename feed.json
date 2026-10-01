@@ -1,11 +1,11 @@
 {
   "format": 1,
   "key_id": "d70b3bf207fdfd59",
-  "signature": "8s9w1PmmZ9hL3JXpglnrvaW2g5d6K5EL919NScxUmjRsNhfIJsWz+6eBjoUoIDRBHrG9Cdd/sKW9Lteu36RuAw==",
+  "signature": "PiyAk7oZMLL9SW97jwPhbCMv3TPkdSva36u6r7oaTXhpdmxH7M+bKMdhzghZGbtHknJ8DrRs953yNOjb73PjBQ==",
   "payload": {
     "format": 1,
-    "serial": 10,
-    "published_at": "2026-10-01T09:31:56Z",
+    "serial": 11,
+    "published_at": "2026-10-01T09:39:26Z",
     "announcements": [
       {
         "id": "84104c2aceeda039",
@@ -16,7 +16,7 @@
         "texts": {
           "en": {
             "title": "H2/X2-series / P2S: why some archives only show a name",
-            "body": "If your archive cards have a name and timing but no thumbnail, filament\ntotal or cost, this is why — and there's a fix that works today.\n\nBambu Studio's Print button sends sliced files to the printer's\ninternal memory on H2C, H2D and P2S. Bambuddy reads files off the\nprinter over FTP, which only serves the SD card or USB stick, so there's\nnothing there to fetch. The printer's \"Store sent files on external\nstorage\" option does not change it — I measured all three printers with\nit enabled, plus an X1C for comparison, which went to the card and\narchived fine.\n\nThree ways to get complete archives, easiest first:\n\n- Start the print from Bambuddy\n- Slice in OrcaSlicer — it always uploads to the card\n- Staying in Studio: use Send with External picked, then start\n   the print from the printer, Handy, or Studio's device page. Print\n   itself offers no storage choice.\n\nAll three need a card or stick in the printer. X1 and P1 series are\nunaffected.\n\nAlso fixed in the next daily: a bug of mine where a print started from a\nfile already on the stick was treated as internal storage and archived\nwithout its data. That one hit every model, so if you've seen empty\narchives on an X1 or P1 recently, this was it.\n\nDetails: https://wiki.bambuddy.cool/reference/troubleshooting/#archive-card-has-only-a-name\nUpstream: https://github.com/bambulab/BambuStudio/issues/10481"
+            "body": "If your archive cards have a name and timing but no thumbnail, filament\ntotal or cost, this is why — and there's a fix that works today.\n\nBambu Studio's Print button sends sliced files to the printer's\ninternal memory on H2C, H2D and P2S. Bambuddy reads files off the\nprinter over FTP, which only serves the SD card or USB stick, so there's\nnothing there to fetch. The printer's \"Store sent files on external\nstorage\" option does not change it — I measured all three printers with\nit enabled, plus an X1C for comparison, which went to the card and\narchived fine.\n\nThree ways to get complete archives, easiest first:\n\n- Start the print from Bambuddy\n- Slice in OrcaSlicer — it always uploads to the card\n- Staying in Studio: use Send with External picked, then start the print from the printer, Handy, or Studio's device page. Print itself offers no storage choice.\n\nAll three need a card or stick in the printer. X1 and P1 series are\nunaffected.\n\nAlso fixed in the next daily: a bug of mine where a print started from a\nfile already on the stick was treated as internal storage and archived\nwithout its data. That one hit every model, so if you've seen empty\narchives on an X1 or P1 recently, this was it.\n\nDetails: https://wiki.bambuddy.cool/reference/troubleshooting/#archive-card-has-only-a-name\nUpstream: https://github.com/bambulab/BambuStudio/issues/10481"
           }
         },
         "link_url": "https://github.com/bambulab/BambuStudio/issues/10481",
