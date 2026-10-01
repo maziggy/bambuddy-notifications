@@ -49,6 +49,7 @@ edited or withdrawn.
     "announcements": [
       {
         "id": "a3f09c1e5b7d2468",
+        "archived": false,
         "level": "important",
         "published_at": "2026-10-01T12:00:00Z",
         "expires_at": null,
@@ -80,6 +81,9 @@ edited or withdrawn.
   banner until dismissed.
 - **`texts`:** English is always present. Bambuddy shows your UI language when the message
   has it, and English otherwise.
+- **`archived`:** an expired message kept as history for up to a year (at most 50).
+  Bambuddy lists these under "Earlier"; they never count as unread or raise a banner.
+  Withdrawn messages are removed outright and never appear here.
 - **`target`:** an empty list or `null` means everyone. `channels` is `stable` or `beta`.
   `install_types` is `docker`, `native`, `ha_addon` or `windows`.
 
