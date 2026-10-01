@@ -1,32 +1,12 @@
 {
   "format": 1,
   "key_id": "d70b3bf207fdfd59",
-  "signature": "41o5sYXUoTMSJdXk45rYuXz9VBiiXafta9oMbi1xlL/2NjSFwYKy8/ePtLY09ZAwHsnUDlmWezmYYwmYJGLBDQ==",
+  "signature": "TJhERm2FSlL/P2kfWcMUVUQb3IBvnRB8oxMABI/k2lDaySqHPTAJhpZYV/Q9SXmwq7e+Ts1p6VL/OgWCfiBSCQ==",
   "payload": {
     "format": 1,
-    "serial": 7,
-    "published_at": "2026-10-01T09:29:22Z",
+    "serial": 8,
+    "published_at": "2026-10-01T09:31:40Z",
     "announcements": [
-      {
-        "id": "9149330844eca213",
-        "archived": false,
-        "level": "info",
-        "published_at": "2026-10-01T09:29:22Z",
-        "expires_at": null,
-        "texts": {
-          "en": {
-            "title": "adadad",
-            "body": "adadadadad"
-          }
-        },
-        "link_url": null,
-        "target": {
-          "min_version": null,
-          "max_version": null,
-          "channels": [],
-          "install_types": []
-        }
-      },
       {
         "id": "ad235b33b8db0108",
         "archived": false,
