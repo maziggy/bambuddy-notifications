@@ -1,0 +1,11 @@
+{
+  "format": 1,
+  "key_id": "d70b3bf207fdfd59",
+  "signature": "hyZ79Sk6aOG0WzLl78RnSgVTp9cS/t7CvrEUDbS/6dwYUCSW/pSDK7a6zGEHR+Ww4w0jcg8e1Mj0aTfZYnejBg==",
+  "payload": {
+    "format": 1,
+    "serial": 1,
+    "published_at": "2026-10-01T08:22:26Z",
+    "announcements": []
+  }
+}
