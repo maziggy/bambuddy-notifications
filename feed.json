@@ -1,12 +1,32 @@
 {
   "format": 1,
   "key_id": "d70b3bf207fdfd59",
-  "signature": "PiyAk7oZMLL9SW97jwPhbCMv3TPkdSva36u6r7oaTXhpdmxH7M+bKMdhzghZGbtHknJ8DrRs953yNOjb73PjBQ==",
+  "signature": "7mUpCedb0KrHxKGgylnfjuHI6MK24l3heV5VgrXg7ROjGZmGbbf/RKwnaS+lOnSsaTQc5MhHEDQ/3y7Ke6AwCA==",
   "payload": {
     "format": 1,
-    "serial": 11,
-    "published_at": "2026-10-01T09:39:26Z",
+    "serial": 12,
+    "published_at": "2026-10-02T10:29:56Z",
     "announcements": [
+      {
+        "id": "f3ba88a42353c1aa",
+        "archived": false,
+        "level": "important",
+        "published_at": "2026-10-02T10:29:56Z",
+        "expires_at": null,
+        "texts": {
+          "en": {
+            "title": "H2D: OrcaSlicer nightly files fail with \"Filament Track Switch offline\"",
+            "body": "Files sliced for the H2D with the OrcaSlicer 2.5.0 nightly fail about 2 minutes into the print with HMS 0700-7400 and 0700-8029 (\"This print requires a Filament Track Switch\") on printers without the switch. This happens whether you print from Bambuddy or from OrcaSlicer itself."
+          }
+        },
+        "link_url": "https://github.com/maziggy/bambuddy/issues/3220",
+        "target": {
+          "min_version": null,
+          "max_version": null,
+          "channels": [],
+          "install_types": []
+        }
+      },
       {
         "id": "84104c2aceeda039",
         "archived": false,
