@@ -1,11 +1,11 @@
 {
   "format": 1,
   "key_id": "d70b3bf207fdfd59",
-  "signature": "Vljb9NOHzK4LZBxBkN+FBeTlGvNi7/ecw4yiQoCzMwjj0h3tv6piofLvvuhyGrlODx56+1IW2HoTIkiiSMSzCw==",
+  "signature": "ALGVuRYi2DRiV71OmkwKRHqirDYQQLgaHzr96CnFzhmAcfXS9FzkNG7DwNyB8dDk8NCmcUcl11bR6VdHl0j3CQ==",
   "payload": {
     "format": 1,
-    "serial": 17,
-    "published_at": "2026-10-22T12:21:26Z",
+    "serial": 18,
+    "published_at": "2026-10-22T12:23:50Z",
     "announcements": [
       {
         "id": "fa743f82fa157873",
